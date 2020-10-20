@@ -52,3 +52,7 @@
 /Users/max/WebProjects/DotNet/DatingApp/API/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/max/WebProjects/DotNet/DatingApp/API/bin/Debug/net5.0/Humanizer.dll
 /Users/max/WebProjects/DotNet/DatingApp/API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/max/WebProjects/DotNet/DatingApp/API/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/max/WebProjects/DotNet/DatingApp/API/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/Users/max/WebProjects/DotNet/DatingApp/API/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/Users/max/WebProjects/DotNet/DatingApp/API/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
