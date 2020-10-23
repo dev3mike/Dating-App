@@ -1,5 +1,7 @@
 using API.Data;
+using API.Data.Repositories;
 using API.Interfaces;
+using API.Interfaces.Repositories;
 using API.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -13,6 +15,9 @@ namespace API.Extensions
         {
             // Add Token Service
             services.AddScoped<ITokenService, TokenService>();
+
+            // Add Repository
+            services.AddScoped<IUserRepository, UserRepository>();
 
             // Add Database Context
             services.AddDbContext<DataContext>(options =>
