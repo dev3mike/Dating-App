@@ -20,9 +20,11 @@ namespace API.Extensions
 
             // Add Repository
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ILikesRepository, LikesRepository>();
 
             // Add AutoMapper
             services.AddAutoMapper(typeof(AutoMapperProfile).Assembly);
+
 
             // Add Database Context
             services.AddDbContext<DataContext>(options =>
