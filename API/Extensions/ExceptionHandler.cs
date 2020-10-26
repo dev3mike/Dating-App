@@ -8,7 +8,7 @@ namespace API.Extensions
 {
     public static class ExceptionHandler
     {
-        public static void ConfigurExceptionHandler(this IApplicationBuilder app)
+        public static void ConfigureExceptionHandler(this IApplicationBuilder app)
         {
             app.UseExceptionHandler(appError =>
             {
